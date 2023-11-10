@@ -1,3 +1,7 @@
+
+https://gorails.com/setup/windows/10
+※Ruby3.2.2 エラー Ruby3.1.3へ変更
+
 # README
 
 This README would normally document whatever steps are necessary to get the
