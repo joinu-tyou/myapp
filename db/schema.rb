@@ -14,4 +14,15 @@ ActiveRecord::Schema[7.1].define(version: 0) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "films", id: false, force: :cascade do |t|
+    t.string "code", limit: 5
+    t.string "title", limit: 40
+    t.integer "did"
+    t.date "date_prod"
+    t.string "kind", limit: 10
+    t.interval "len"
+
+    t.unique_constraint ["date_prod"], name: "production"
+  end
+
 end
