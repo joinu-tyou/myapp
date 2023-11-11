@@ -253,6 +253,7 @@ DEPENDENCIES
   debug
   error_highlight (>= 0.4.0)
   html2slim
+  i18n
   importmap-rails
   jbuilder
   pg (~> 1.1)
