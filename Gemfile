@@ -46,6 +46,10 @@ gem 'slim-rails'
 
 gem 'i18n'
 
+# Use Devise for Authentication
+# cb@cs-note06:~/myapp$bundle install
+gem 'devise'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
