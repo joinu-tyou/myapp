@@ -9,4 +9,21 @@ html
     = stylesheet_link_tag "application", "data-turbo-track": "reload"
     = javascript_importmap_tags
   body
+    / <>がいらない
+    / <%= %>　→　 =
+    / <% %> → -
+    / コメント　→　/
+    / id指定　→　#
+    / class指定　→　.
+
+    dev.content
+      p.title タイトル
+
+    /  ここからビュー  
     = yield
+
+    /  フッター
+    dev.content
+      p.title フッター
+
+
